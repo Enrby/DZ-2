@@ -88,6 +88,17 @@ public class Main {
     }
     public static void task8  () {
         System.out.println("Задача 8");
+        var hoarsOperation = 640;
+        var manWorking = 8;
+        var totaEmployees = hoarsOperation / manWorking;
+        System.out.println("всего работает " + totaEmployees + " человек");
+        var totaEmployees2 = 94;
+        var totaEmployees1 = 80;
+        var totalNunmer = totaEmployees2 + totaEmployees1;
+        System.out.println("Если общее количество " + totalNunmer + " сотрудников" );
+        var totalHours = totalNunmer * manWorking;
+        System.out.println("То всего часов работы " + totalHours);
+    }
 
 }
 
